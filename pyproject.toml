@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gptapp"
+version = "0.1.0"
+description = ""
+authors = ["Stephan The God <teig.stephan@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.3"
+numpy = "^1.24.2"
+pandas = "^2.0.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
